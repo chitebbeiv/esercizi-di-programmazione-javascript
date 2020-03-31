@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let year_now    = 2020;
+let year_birth  = 1896;
+
+var age = year_now - year_birth;
+var cen = 100 - age;
+
+console.log( 'età = ' + age + ', anni mancanti = ' + cen );

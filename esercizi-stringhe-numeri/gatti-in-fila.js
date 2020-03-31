@@ -18,4 +18,11 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44;
+const cats = 120;
+const cats_in_row = 5;
+
+var rows = Math.ceil( cats / cats_in_row );
+var rest = cats % cats_in_row;
+if ( rest > 0 ) var rest = cats_in_row - rest;
+
+console.log( 'numero di file = ' + rows + ', gatti mancanti = ' + rest );

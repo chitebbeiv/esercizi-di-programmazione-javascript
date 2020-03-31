@@ -13,4 +13,11 @@
   http://www.imparareaprogrammare.it
 */
 
-vsr time = 0;
+const secs = 12560;
+
+let toMin = Math.round( secs / 60 );
+let ore = Math.round( toMin / 60 );
+let min = toMin - ( ore * 60 );
+let sec = secs % toMin;
+
+console.log( ore + ' ore, ' + min + ' minuti e ' + sec + ' secondi' );
