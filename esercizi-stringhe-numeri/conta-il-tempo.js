@@ -12,3 +12,5 @@
 
   http://www.imparareaprogrammare.it
 */
+
+vsr time = 0;
